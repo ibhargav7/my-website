@@ -5,24 +5,28 @@
     <title>Bootstrap Example</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <style>
         #body {
             background-color: black;
             color: white;
             margin: 40px;
-            border-color: white;
+
         }
-        #margin{
+
+        #margin {
             width: 80%;
         }
-        #size{
+
+        #size {
             font-size: 20px;
         }
-        #icon{
+
+        #icon {
             font-size: 40px;
             padding: 10px;
         }
@@ -32,66 +36,73 @@
 <body id="body">
     <nav class="navbar navbar-dark bg-dark">
         <a class="navbar-brand" href="">
-            <img src="https://s-media-cache-ak0.pinimg.com/236x/77/90/95/779095c6f40e9dfbc817adec73e29dd1.jpg" width="30" height="30"
-               style="border-radius: 30px;" class="d-inline-block align-top" alt="">
-                
+            <img src="https://s-media-cache-ak0.pinimg.com/236x/77/90/95/779095c6f40e9dfbc817adec73e29dd1.jpg"
+                width="30" height="30" style="border-radius: 30px;" class="d-inline-block align-top" alt="">
+
             <strong style="padding-left: 10px;">Bhargav Inturi</strong>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="collapsibleNavbar" style="padding-top: 20px;" >
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar" style="padding-top: 20px;">
             <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#"><strong>About Me</strong></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><strong>Skills</strong></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contactus.html"><strong>Contact US</strong></a>
-              </li>    
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><strong>About Me</strong></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><strong>Skills</strong></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contactus.html"><strong>Contact US</strong></a>
+                </li>
             </ul>
-          </div>  
+        </div>
     </nav>
     <h1 style="font-size: 50px; color: wheat;">Stay in Touch <br>With us.</h2>
         <br>
-            <div class="row">
-                <div class="col col-md-8">
-                    <div class="card">
-                        <form>
-                            <h2 style="color: honeydew;">Post a Comment :</h2><br>
-                            <label id="size">Email</label>
-                            <input id="margin" type="email" class="form-control" id="inputEmail">
-                            <br>
-                        
-                            <label id="size">Subject :</label>
-                            <input id="margin" type="text" class="form-control" id="inputsub">
-                            <br>
-                            <label id="size">Comment: </label>
-                            <textarea id="margin" type="text" class="form-control" id="inputcom"></textarea>
-                            <br>
-
-                            <button type="submit" class="btn btn-primary btn-lg">Post</button>
-                        </form>
-                    </div>
-                </div>
-                <div class="col col-md-4">
-                    <div class="card" style="text-align: center;">
+        <div class="row">
+            <div class="col col-md-8">
+                <div class="card">
+                    <form style="background-color: black; padding: 20px;">
+                        <h2 style="color: honeydew;">Post a Comment :</h2><br>
+                        <label id="size">Email</label>
+                        <input id="margin" type="email" class="form-control" id="inputEmail">
                         <br>
-                        <div class="card-body" style="font-size: 32px; color: honeydew;">Contact Details :</div>
-                        <h3>Contact no. : +918688381881</h2>
-                            <h3>Mail id : bhargavinturi792@gmail.com </h2><br>
-                        <strong style="color: honeydew;"><h2>Follow me social sites:</h2></strong>
-                        <a id="icon" href="https://www.instagram.com/bhargav_inturi/?hl=en"><i class="fa fa-instagram "></i></a>
-                        <a id="icon" href="https://www.facebook.com/bhargav.inturi.18"><i class="fa fa-facebook"></i></a>
+
+                        <label id="size">Subject :</label>
+                        <input id="margin" type="text" class="form-control" id="inputsub">
+                        <br>
+                        <label id="size">Comment: </label>
+                        <textarea id="margin" type="text" class="form-control" id="inputcom"></textarea>
+                        <br>
+
+                        <button type="submit" class="btn btn-primary btn-lg"
+                            style="padding-right:15px;"><strong>Post</strong></button>
+                    </form>
+                </div>
+            </div>
+            <div class="col col-md-4">
+                <div class="card" style="text-align: center; background-color: black;">
+                    <br>
+                    <div class="card-body" style="font-size: 32px; color: honeydew;">Contact Details :</div>
+                    <h3>Contact no. : +918688381881</h3>
+                    <h3>Mail id : bhargavinturi792@gmail.com </h3><br>
+                    <strong style="color: honeydew;">
+                        <h2>Follow me social sites:</h2>
+                    </strong>
+                    <div class="inline">
+                        <a id="icon" href="https://www.instagram.com/bhargav_inturi/?hl=en"><i
+                                class="fa fa-instagram "></i></a>
+                        <a id="icon" href="https://www.facebook.com/bhargav.inturi.18"><i
+                                class="fa fa-facebook"></i></a>
                         <a id="icon" href="https://github.com/ibhargav7"><i class="fa fa-github"></i></a>
                         <a id="icon" href="https://twitter.com/InturiBhargav"><i class="fa fa-twitter-square"></i></a>
                     </div>
-                  
                 </div>
+
             </div>
         </div>
+        
 </body>
 
 </html>
